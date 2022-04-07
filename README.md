@@ -28,7 +28,7 @@ Put the dataset and `args.json`, `run_re.ipynb` on Colab.
 The `args.json` stores the setting argument when training. 
 
 ### Evaluation
-Evaluate test predictions
+Evaluate test predictions.
 `python re_eval.py --output_path=${SAVE_DIR}/test_results.txt --answer_path=${DATA_DIR}/test_original.tsv`
 
 
