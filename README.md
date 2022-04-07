@@ -23,9 +23,9 @@ Use `preprocess_re.py` to preprocess dataset to BioBERT's input format.
 - split our data into 5/10 folds (5/10 folds cross validation)
 - leave-one-out cross validation
 
-### Finetuning BioBert
-Put the dataset and `args.json`, `run_re.ipynb` on Colab.
-The `args.json` stores the setting argument when training. 
+### Finetuning BioBERT
+Put the dataset and `run_re.py`, `run_re_10cv.sh`, `run_re_colab.ipynb` on Colab.
+`run_re_10cv.sh` store the training setting and data path.
 
 ### Evaluation
 Evaluate test predictions.
