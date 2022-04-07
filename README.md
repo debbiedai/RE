@@ -18,18 +18,20 @@ The introduction of [Colab](https://colab.research.google.com/?utm_source=scs-in
 ### Preprocess
 We use TeamTat to label relationship between species and gene, "1" is positive, "0" is negative.
 Use `preprocess_re.py` to preprocess dataset to BioBERT's input format.
-
-`preprocess.py`
 - split our data into 5/10 folds (5/10 folds cross validation)
 - leave-one-out cross validation
 
 ### Finetuning BioBERT
 Put the dataset and `run_re.py`, `run_re_10cv.sh`, `run_re_colab.ipynb` on Colab.
+
 `run_re_10cv.sh` store the training setting and data path.
 
 ### Evaluation
 Evaluate test predictions.
+
 `python re_eval.py --output_path=${SAVE_DIR}/test_results.txt --answer_path=${DATA_DIR}/test_original.tsv`
+
+`re_eval_10cv.sh` can 5-cv/10-cv/leave-one-out cv experiment result.
 
 
 ### The result of 5 folds cross validation
