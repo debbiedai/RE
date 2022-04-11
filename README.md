@@ -22,9 +22,9 @@ Use `preprocess_re.py` to preprocess dataset to BioBERT's input format.
 - leave-one-out cross validation
 
 ### Finetuning BioBERT
-Put the dataset and `run_re.py`, `run_re_10cv.sh`, `run_re_colab.ipynb` on Colab.
+Put the dataset and `run_re.py`, `metrics.py`, `run_re_10cv.sh`, `run_re_colab.ipynb` on google drive, and run `run_re_colab.ipynb` on Colab.
 
-`run_re_10cv.sh` store the training setting and data path.
+`run_re_10cv.sh` store the training setting and data path. 
 
 ### Evaluation
 Evaluate test predictions.
