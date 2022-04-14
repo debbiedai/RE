@@ -61,6 +61,14 @@ Evaluate test predictions.
 | fold_9         |          99.21          |         100.00       |       99.21      |       66.67       |
 | Average        |          98.28          |         99.06        |       98.51      |       69.17       |
 
+
+### The result of leave-one-out cross validation
+
+| Test Fold      |    Test Precision (%)   |    Test Recall (%)   |    Test F1 (%)   |Test Specificity(%)|
+|----------------|:-----------------------:|:--------------------:|:----------------:|:-----------------:|
+| Average        |          98.12          |         98.74        |       98.43      |       69.23       |
+
+
 ## Citation
 ```bibtex
 @article{lee2020biobert,
